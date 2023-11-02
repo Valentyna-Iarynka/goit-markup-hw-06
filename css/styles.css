@@ -226,7 +226,9 @@ img {
 }
 
 .header-menu-list {
-  display: none;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .header-menu-item {
@@ -328,7 +330,11 @@ img {
 .priority-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 72px;
+  gap: 72px 24px;
+}
+
+.priority-item {
+  width: 356px;
 }
 
 .priority-subtitle {
@@ -978,7 +984,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-bg-tab.jpg);
+      url(../images/hero/Dark-bg-tab.jpg);
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -989,7 +995,7 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/Dark-bg-tab-2x.jpg);
+        url(../images/hero/Dark-bg-tab-2x.jpg);
     }
   }
 
@@ -1079,7 +1085,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-bg.jpg);
+      url(../images/hero/hero-bg.jpg);
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -1090,7 +1096,7 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero-bg-2x.jpg);
+        url(../images/hero/hero-bg-2x.jpg);
     }
   }
 
